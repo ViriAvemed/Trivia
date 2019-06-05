@@ -1,0 +1,147 @@
+.invisible{
+	display:none;
+}
+.visible{
+	display:block;
+}
+body {
+  font-family: "calibri", Garamond, 'Comic Sans';
+  font-size: medium;
+  background-image: url("https://image.freepik.com/foto-gratis/objetos-pelicula-fondo-whita_53876-42873.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+	color: crimson;
+  font-size:100px;
+}
+
+h2{
+	color: crimson;
+  font-size:40px;
+}
+#p1m {
+  color:MIDNIGHTBLUE;
+  font-size: 20px;
+  font-weight:bold;
+}
+#p2m {
+  color:MIDNIGHTBLUE;
+  font-size: 20px;
+  font-weight:bold;
+}
+#p3m {
+  color:MIDNIGHTBLUE;
+  font-size: 20px;
+  font-weight:bold;
+}
+#disney {
+  color: hotpink;
+  font-size:40px;
+}
+#dp2 {
+  color: hotpink;
+  font-size:40px;
+}#dp3 {
+  color: hotpink;
+  font-size:40px;
+}
+#p1d {
+   color:MEDIUMVIOLETRED;
+  font-size: 20px;
+  font-weight:bold;
+}
+#p2d {
+   color:MEDIUMVIOLETRED;
+  font-size: 20px;
+  font-weight:bold;
+}
+#p3d {
+   color:MEDIUMVIOLETRED;
+  font-size: 20px;
+  font-weight:bold;
+}
+#first_Screen {
+	padding: 5%;
+    text-align: center;
+}
+
+#second_Screen {
+	padding: 5%;
+    text-align: center;
+}
+#thrirt_Screen {
+	padding: 5%;
+    text-align: center;
+}
+#fourth_Screen {
+	padding: 5%;
+    text-align: center;
+}
+#fifth_Screen {
+	padding: 5%;
+    text-align: center;
+}
+
+#sixth_Screen {
+	padding: 5%;
+    text-align: center;
+}
+#seventh_Screen {
+	padding: 5%;
+    text-align: center;
+}
+#eighth_Screen {
+	padding: 5%;
+    text-align: center;
+}
+
+#ninth_Screen {
+	padding: 5%;
+    text-align: center;
+}
+#tenth_Screen {
+	padding: 5%;
+    text-align: center;
+}
+h2 {
+	color:crimson;
+}
+#id_acccept {
+	background:yellow;
+}
+#id_start{
+	background:yellow;
+}
+.id_marvel {
+	background:maroon;
+	color:white
+}
+.id_disney {
+	background:pink;
+}
+#id_nextM1 {
+	background:maroon;
+	color:white;
+}
+#id_nextM2 {
+	background:maroon;
+	color:white
+}
+#id_FinishM {
+	background:maroon;
+	color:white
+}
+#id_nextD1 {
+	background:pink;
+}
+#id_nextD2{
+	background:pink;
+}
+#id_FinishD {
+	background:pink;
+}
+
+#id_home {
+	background:yellow;
+}

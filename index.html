@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Cine Trivia</title>
+   <link rel="stylesheet" type="text/css" href="styles.css"/>
+  
+ </head>
+ <body>
+ 
+   <!--AQUI INICIA EL CONTENIDO DEL DOCUMENTO, IMAGINAMOS QUE HAY VARIAS PANTALLAS,
+   CADA UNA REPRESENTADA CON UN DIV, QUE SERVIRA PARA OCULTAR O MOSTRAR EL BLOQUE QUE SE ELIJA-->
+   
+   
+   <!--PANTALLA DE BIENVENIDA-->
+ <div id="first_Screen" class="visible" >
+  <h1> CINE TRIVIA </h1>
+   <!--El texto insertado se llama "id_name"-->
+   <input type="text" placeholder="Inserta tu nombre" name= "nombre" id="id_name">
+  <p> <input type="button" id="id_acccept"  value="Aceptar"></p>
+ </div>
+  
+   <!--SEGUNDA PANTALLA, INICIA LA OPCION JUGAR -->
+ <div id="second_Screen" class="invisible" >
+   <h2>¡HOLA <span id="playerName"></span> BIENVENID@ A CINE TRIVIA!</h2>
+   <br> <br>
+   <input type ="button"  id="id_start" value="Jugar">
+  </div>
+	 
+	  <!--TERCER PANTALLA SE ELIJE LA OPCION A O LA B-->
+ <div id="thrirt_Screen" class="invisible" >
+  <h2>De qué sabes más...</h2> 
+  <input type="button"  id="id_marvel"  value="Marvel"class="id_marvel">
+  <input type="button" id ="id_disney" value="Disney" class="id_disney">
+ </div>
+ 
+  <!--CUARTA PANTALLA INICIA LA PREGUNTA UNO DE MARVEL-->
+ <div id="fourth_Screen" class="invisible">
+  <h2>MARVEL</h2>
+  <p id="p1m">1. Thor es conocido como el dios del...<p>
+  <p><input type="radio" name="pregunta1" id="id_Thunderbolt" value="0">Rayo</p>
+  <p><input type="radio" name="pregunta1" id="id_hammer" value="0"> Martillo</p>
+  <p><input type="radio" name="pregunta1" id="id_ring" value="0"> Anillo </p>
+  <p><input type="radio" name="pregunta1" id="id_Thunder" value="1"> Trueno </p>
+  <input type="button" name="pregunta1" id="id_nextM1" value="Siguiente">
+ </div>
+ 
+  <!--QUINTA PANTALLA INICIA LA PREGUNTA DOS DE MARVEL-->
+<div id="fifth_Screen" class="invisible" >
+  <h2>MARVEL</h2>
+  <p id="p2m">2.¿Cuál es la identidad secreta de Spider-Man?<p>
+  <p><input type="radio" name="pregunta2" id="id_Thompson" value="0">Flash Thompson</p>
+  <p><input type="radio" name="pregunta2" id="id_Osborn" value="0"> Harry Osborn</p>
+  <p><input type="radio" name="pregunta2" id="id_Parker" value="1"> Peter Parker </p>
+  <p><input type="radio" name="pregunta2" id="id_Gonzalez" value="0"> Vin Gonzalez </p>
+  <input type="button" name="pregunta2" id="id_nextM2"  value="Siguiente">
+ </div>
+ 
+  <!--SEXTA PANTALLA INICIA LA PREGUNTA TRES DE MARVEL-->
+ <div id="sixth_Screen" class="invisible" >
+  <h2>MARVEL</h2>
+  <p id="p3m">3.¿De cuál de estos grupos formo parte Wolverine?<p>
+  <p><input type="radio" name="pregunta3" id="id_Factor-X" value="0">Factor-X</p>
+  <p><input type="radio" name="pregunta3" id="id_Avengers" value="0"> Avengers</p>
+  <p><input type="radio" name="pregunta3" id="id_Galaxia" value="0"> Guardianes de la Galaxia </p>
+  <p><input type="radio" name="pregunta3" id="id_X-Men" value="1"> X-Men </p>
+  <input type="button" name="pregunta3" id="id_FinishM"  value="Terminar">
+</div>
+ 
+ 
+ 
+ <div id="seventh_Screen" class="invisible">
+  <h2 id="disney">DISNEY</h2>
+  <p id="p1d">1. ¿Qué le robó Ursula a Ariel en la Sirenita?<p>
+  <p><input type="radio" name="preguntaD1" id="id_Eyes" value="0"> Los ojos</p>
+  <p><input type="radio" name="preguntaD1" id="id_Voice" value="1"> La voz</p>
+  <p><input type="radio" name="preguntaD1" id="id_Hair" value="0"> Su cabello </p>
+  <p><input type="radio" name="preguntaD1" id="Necklace" value="0"> El medallon de su padre </p>
+  <input type="button" name="preguntaD1" id="id_nextD1" value="Siguiente">
+  </div>
+  
+  <div id="eighth_Screen" class="invisible" >
+  <h2 id="dp2">DISNEY</h2>
+  <p id="p1d">2.¿Cómo se llama la hija de Simba?<p>
+  <p><input type="radio" name="preguntD2" id="id_Kiara" value="1"> Kiara</p>
+  <p><input type="radio" name="preguntD2" id="id_Nala" value="0"> Nala</p>
+  <p><input type="radio" name="preguntD2" id="id_Sarabi" value="0"> Sarabi </p>
+  <p><input type="radio" name="preguntD2" id="id_Daenerys" value="0"> Daenerys</p>
+  <input type="button"name="pregunta2D" id="id_nextD2" value="Siguiente">
+  </div>
+  
+   <div id="ninth_Screen" class="invisible">
+  <h2 id="dp3">DISNEY</h2>
+  <p id="p1d">3.¿Cómo se llama el papá de Pinocho?<p>
+    <p><input type="radio" name="preguntaD3" id="id_Gepetto" value="1"> Gepetto</p>
+  <p><input type="radio" name="preguntaD3" id="id_PepeGrillo" value="0"> Pepe Grillo</p>
+  <p><input type="radio" name="preguntaD3" id="id_ErnestodelaCruz" value="0"> Ernesto de la Cruz </p>
+  <p><input type="radio" name="preguntaD3" id="id_Kerchak" value="0"> Kerchak </p>
+  <input type="button" name="preguntad3" id="id_FinishD" value="Terminar">
+  </div>
+  
+  <div id="tenth_Screen" class="invisible" >
+   <h2> RESULTADOS </h2>
+   <table align="center" cellspacing="0" cellpadding="10" border="3";>
+     <tr>
+	  <th> Respuestas correctas </th>
+	  <th> Respuestas incorrectas </th>
+	 </tr>
+	 <tr>
+	  <td aling="center"><span id="correctas"></span></td>
+	  <td aling="center"><span id="incorrectas"></span></td>
+	 </tr>
+   </table>
+   
+   <p> Volver a Jugar</p>
+   <input type="button" id="id_vmarvel"  class="id_marvel" value="Marvel">
+  <input type="button" id ="id_vdisney" value="Disney" class="id_disney">
+    <!--el nuevo boton de inicio-->
+    <p><input type="button" id ="id_home" value="inicio"></p>
+  </div>
+  
+   <script type="text/javascript" src="script.js"></script>
+ </body>
+</html>
